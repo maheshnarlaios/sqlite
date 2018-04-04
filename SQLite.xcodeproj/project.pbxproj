@@ -14,6 +14,12 @@
 		18EB19382058DD1400EDA1EB /* SQLite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EB19362058DD1400EDA1EB /* SQLite.xcdatamodeld */; };
 		18EB193A2058DD1400EDA1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EB19392058DD1400EDA1EB /* Assets.xcassets */; };
 		18EB193D2058DD1400EDA1EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB193B2058DD1400EDA1EB /* LaunchScreen.storyboard */; };
+		18EB19462058DD3C00EDA1EB /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB19452058DD3C00EDA1EB /* DBManager.m */; };
+		18EB194A2058DD6B00EDA1EB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB19482058DD6B00EDA1EB /* libsqlite3.0.tbd */; };
+		18EB194B2058DD6B00EDA1EB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB19492058DD6B00EDA1EB /* libsqlite3.tbd */; };
+		18EB194E2058DDF500EDA1EB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB194C2058DDF500EDA1EB /* libsqlite3.dylib */; };
+		18EB194F2058DDF500EDA1EB /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB194D2058DDF500EDA1EB /* libz.1.dylib */; };
+		18EB19522058E90400EDA1EB /* DetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB19512058E90400EDA1EB /* DetailsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,14 @@
 		18EB19392058DD1400EDA1EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EB193C2058DD1400EDA1EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EB193E2058DD1400EDA1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EB19442058DD3C00EDA1EB /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		18EB19452058DD3C00EDA1EB /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		18EB19482058DD6B00EDA1EB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		18EB19492058DD6B00EDA1EB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18EB194C2058DDF500EDA1EB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		18EB194D2058DDF500EDA1EB /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		18EB19502058E90400EDA1EB /* DetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsController.h; sourceTree = "<group>"; };
+		18EB19512058E90400EDA1EB /* DetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EB194E2058DDF500EDA1EB /* libsqlite3.dylib in Frameworks */,
+				18EB194F2058DDF500EDA1EB /* libz.1.dylib in Frameworks */,
+				18EB194A2058DD6B00EDA1EB /* libsqlite3.0.tbd in Frameworks */,
+				18EB194B2058DD6B00EDA1EB /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +64,7 @@
 			children = (
 				18EB19292058DD1400EDA1EB /* SQLite */,
 				18EB19282058DD1400EDA1EB /* Products */,
+				18EB19472058DD6B00EDA1EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +79,11 @@
 		18EB19292058DD1400EDA1EB /* SQLite */ = {
 			isa = PBXGroup;
 			children = (
+				18EB19442058DD3C00EDA1EB /* DBManager.h */,
+				18EB19452058DD3C00EDA1EB /* DBManager.m */,
 				18EB192D2058DD1400EDA1EB /* AppDelegate.h */,
+				18EB19502058E90400EDA1EB /* DetailsController.h */,
+				18EB19512058E90400EDA1EB /* DetailsController.m */,
 				18EB192E2058DD1400EDA1EB /* AppDelegate.m */,
 				18EB19302058DD1400EDA1EB /* ViewController.h */,
 				18EB19312058DD1400EDA1EB /* ViewController.m */,
@@ -80,6 +103,17 @@
 				18EB192B2058DD1400EDA1EB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18EB19472058DD6B00EDA1EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18EB194C2058DDF500EDA1EB /* libsqlite3.dylib */,
+				18EB194D2058DDF500EDA1EB /* libz.1.dylib */,
+				18EB19482058DD6B00EDA1EB /* libsqlite3.0.tbd */,
+				18EB19492058DD6B00EDA1EB /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +189,10 @@
 			files = (
 				18EB19322058DD1400EDA1EB /* ViewController.m in Sources */,
 				18EB19382058DD1400EDA1EB /* SQLite.xcdatamodeld in Sources */,
+				18EB19522058E90400EDA1EB /* DetailsController.m in Sources */,
 				18EB192F2058DD1400EDA1EB /* AppDelegate.m in Sources */,
 				18EB192C2058DD1400EDA1EB /* main.m in Sources */,
+				18EB19462058DD3C00EDA1EB /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
