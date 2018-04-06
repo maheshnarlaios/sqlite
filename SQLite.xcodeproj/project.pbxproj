@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B5643D20778B0A00FDD005 /* Mahesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5643C20778B0A00FDD005 /* Mahesh.m */; };
 		18EB192C2058DD1400EDA1EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB192B2058DD1400EDA1EB /* main.m */; };
 		18EB192F2058DD1400EDA1EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB192E2058DD1400EDA1EB /* AppDelegate.m */; };
 		18EB19322058DD1400EDA1EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB19312058DD1400EDA1EB /* ViewController.m */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B5643B20778B0A00FDD005 /* Mahesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mahesh.h; sourceTree = "<group>"; };
+		18B5643C20778B0A00FDD005 /* Mahesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mahesh.m; sourceTree = "<group>"; };
 		18EB19272058DD1400EDA1EB /* SQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EB192B2058DD1400EDA1EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18EB192D2058DD1400EDA1EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 		18EB19292058DD1400EDA1EB /* SQLite */ = {
 			isa = PBXGroup;
 			children = (
+				18B5643B20778B0A00FDD005 /* Mahesh.h */,
+				18B5643C20778B0A00FDD005 /* Mahesh.m */,
 				18EB19442058DD3C00EDA1EB /* DBManager.h */,
 				18EB19452058DD3C00EDA1EB /* DBManager.m */,
 				18EB192D2058DD1400EDA1EB /* AppDelegate.h */,
@@ -189,6 +194,7 @@
 			files = (
 				18EB19322058DD1400EDA1EB /* ViewController.m in Sources */,
 				18EB19382058DD1400EDA1EB /* SQLite.xcdatamodeld in Sources */,
+				18B5643D20778B0A00FDD005 /* Mahesh.m in Sources */,
 				18EB19522058E90400EDA1EB /* DetailsController.m in Sources */,
 				18EB192F2058DD1400EDA1EB /* AppDelegate.m in Sources */,
 				18EB192C2058DD1400EDA1EB /* main.m in Sources */,
@@ -351,6 +357,7 @@
 				18EB19432058DD1400EDA1EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
