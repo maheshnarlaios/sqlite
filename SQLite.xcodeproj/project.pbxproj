@@ -21,7 +21,6 @@
 		18EB194E2058DDF500EDA1EB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB194C2058DDF500EDA1EB /* libsqlite3.dylib */; };
 		18EB194F2058DDF500EDA1EB /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EB194D2058DDF500EDA1EB /* libz.1.dylib */; };
 		18EB19522058E90400EDA1EB /* DetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB19512058E90400EDA1EB /* DetailsController.m */; };
-		F2297D6520778B0B0002564D /* Chandan.m in Sources */ = {isa = PBXBuildFile; fileRef = F2297D6420778B0B0002564D /* Chandan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,8 +45,6 @@
 		18EB194D2058DDF500EDA1EB /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		18EB19502058E90400EDA1EB /* DetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsController.h; sourceTree = "<group>"; };
 		18EB19512058E90400EDA1EB /* DetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsController.m; sourceTree = "<group>"; };
-		F2297D6320778B0B0002564D /* Chandan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chandan.h; sourceTree = "<group>"; };
-		F2297D6420778B0B0002564D /* Chandan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chandan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +98,6 @@
 				18EB193E2058DD1400EDA1EB /* Info.plist */,
 				18EB19362058DD1400EDA1EB /* SQLite.xcdatamodeld */,
 				18EB192A2058DD1400EDA1EB /* Supporting Files */,
-				F2297D6320778B0B0002564D /* Chandan.h */,
-				F2297D6420778B0B0002564D /* Chandan.m */,
 			);
 			path = SQLite;
 			sourceTree = "<group>";
@@ -204,7 +199,6 @@
 				18EB192F2058DD1400EDA1EB /* AppDelegate.m in Sources */,
 				18EB192C2058DD1400EDA1EB /* main.m in Sources */,
 				18EB19462058DD3C00EDA1EB /* DBManager.m in Sources */,
-				F2297D6520778B0B0002564D /* Chandan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
