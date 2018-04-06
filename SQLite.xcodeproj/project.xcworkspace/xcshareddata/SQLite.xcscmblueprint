@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "51CE68DC82B60C789E9BF5C1261CB3AF5862985A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "43AEC254A7CB81A6E6DA16325A16599B8358F834" : 9223372036854775807,
+    "51CE68DC82B60C789E9BF5C1261CB3AF5862985A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8567EBE3-5295-49C4-BA0D-256B40D1E3A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "43AEC254A7CB81A6E6DA16325A16599B8358F834" : "",
+    "51CE68DC82B60C789E9BF5C1261CB3AF5862985A" : "sqlite\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SQLite",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SQLite.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chandan5678\/chandurepo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "43AEC254A7CB81A6E6DA16325A16599B8358F834"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maheshnarlaios\/sqlite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51CE68DC82B60C789E9BF5C1261CB3AF5862985A"
+    }
+  ]
+}
